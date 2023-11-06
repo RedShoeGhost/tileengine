@@ -43,28 +43,28 @@ impl Vertex {
 
 const VERTICES: &[Vertex] = &[
     Vertex {
-        position: [-0.5, -0.5, 0.0],
-        tex_coords: [0.0, 1.0],
+        position: [-0.5, 0.5, 0.0],
+        tex_coords: [0.0, 0.0],
     }, // Topleft
     Vertex {
-        position: [0.5, -0.5, 0.0],
-        tex_coords: [1.0, 1.0],
-    }, // BottomLeft
-    Vertex {
-        position: [-0.5, 0.5, 0.0],
-        tex_coords: [0.0, 0.0],
-    }, // TopRight
-    Vertex {
-        position: [-0.5, 0.5, 0.0],
-        tex_coords: [0.0, 0.0],
-    }, // TopRight
-    Vertex {
-        position: [0.5, -0.5, 0.0],
-        tex_coords: [1.0, 1.0],
+        position: [-0.5, -0.5, 0.0],
+        tex_coords: [0.0, 1.0],
     }, // BottomLeft
     Vertex {
         position: [0.5, 0.5, 0.0],
         tex_coords: [1.0, 0.0],
+    }, // TopRight
+    Vertex {
+        position: [0.5, 0.5, 0.0],
+        tex_coords: [1.0, 0.0],
+    }, // TopRight
+    Vertex {
+        position: [-0.5, -0.5, 0.0],
+        tex_coords: [0.0, 1.0],
+    }, // BottomLeft
+    Vertex {
+        position: [0.5, -0.5, 0.0],
+        tex_coords: [1.0, 1.0],
     }, // BottomRight
 ];
 
